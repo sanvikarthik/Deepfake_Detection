@@ -56,41 +56,49 @@ Deepfake detection using advanced AI techniques, including CNNs, multi-attention
    ```bash
    git clone https://github.com/yourusername/AI-Forensics-DeepFake-Detection.git
    cd AI-Forensics-DeepFake-Detection
-   Install Dependencies
-2. Make sure to have Python 3.8+ installed, then run:
-
-```bash
-  #pip install -r requirements.txt
-```
+    ```
+2. Install Dependencies
+ Make sure to have Python 3.8+ installed, then run:
+   ```bash
+   pip install -r requirements.txt
+    ```
 3. Run the Application
   Launch the GUI:
-```
-streamlit run myapp.py
- ```
+   ```bash
+   streamlit run myapp.py
+    ```
 4. Verify Setup
 Ensure all files are in place and dependencies are correctly installed.
 
+---
+
 ## Pipeline Overview
-Step 1: Extract frames from the input video and preprocess them for analysis.
-Step 2: Perform spatial, temporal, and frequency analysis on the frames.
-Step 3: Conduct audio-visual synchronization checks using SyncNet.
-Step 4: Aggregate results and generate a detailed report.
+-**Step 1**: Extract frames from the input video and preprocess them for analysis.
+-**Step 2**: Perform spatial, temporal, and frequency analysis on the frames.
+-**Step 3**: Conduct audio-visual synchronization checks using SyncNet.
+-**Step 4**: Aggregate results and generate a detailed report.
+
+---
 
 ## 🚀 Usage
 Upload the video file you want to analyze.
 Run the detection pipeline via the user interface.
 Review the detailed report highlighting detected inconsistencies.
 
+---
+
 ## 📈 Future Work
-Streamlit UI Enhancements: Revamp the UI for better usability and visualization.
-Extended Model Training: Incorporate more datasets for improved accuracy.
-Missing File Check: Add functionality to flag missing or corrupted files automatically.
-Additional Features: Explore integrating other modalities like metadata analysis.
+- **Streamlit UI Enhancements**: Revamp the UI for better usability and visualization.
+-**Extended Model Training**: Incorporate more datasets for improved accuracy.
+-**Missing File Check**: Add functionality to flag missing or corrupted files automatically.
+-**Additional Features**: Explore integrating other modalities like metadata analysis.
+
+---
 
 ## 🤝 Contributing
 Contributions are welcome! If you have ideas, improvements, or find bugs, please open an issue or submit a pull request.
 
-
+---
 
 📝 To-Do List
 Migrate the UI to Streamlit.
